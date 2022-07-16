@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cn.css">
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+            ;
+        }
+        
+        #can {
+            /* position: absolute; */
+            /* top:50%; */
+            padding:20px;
+            border:2px solid rgb(255, 137, 206);
+        }
+        input{
+outline-width: 0;
+padding:10px;
+
+        }
+        .abs {
+text-align: center;
+
+            color: rgb(199, 72, 79);
+            text-transform: uppercase;
+        }
+        .flex{
+
+            display:flex;
+            flex-direction:column
+        }
+        .input{
+display:flex;
+justify-content: space-around;
+margin:10px;
+        }
+        button{
+padding:10px;
+background:rgb(255, 0, 153);
+width:100px;;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <div class="flex">
+        <div class="input">
+
+            <input type='text' placeholder="Enter Your Nick Name"/>
+            <button onclick="clicked()">OK </button>
+        </div>
+
+    <h1 class="abs">move cursor on canvas</h1>
+    <canvas id="can">
+        
+        </canvas>
+    </div>
+    <script src="can1.js">
+    </script>
+
+
+</body>
+
+
+
+</html>
